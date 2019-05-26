@@ -1,0 +1,36 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "M3 Playing with R3ACT",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avivbueno/React-Playground.git"
+  },
+  "author": "Aviv Bueno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avivbueno/React-Playground/issues"
+  },
+  "homepage": "https://github.com/avivbueno/React-Playground#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
